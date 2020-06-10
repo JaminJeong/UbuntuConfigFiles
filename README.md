@@ -1,7 +1,7 @@
 # Ubuntu Config Files
 ### tmux
 ```bash
-# sudo apt install tmux
+$ sudo apt install tmux
 $ cp tmux.conf ~/.tmux.conf
 ```
   * key binding
