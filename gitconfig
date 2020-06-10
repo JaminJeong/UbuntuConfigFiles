@@ -1,1 +1,9 @@
 [alias]
+    s = status -s
+    co = checkout
+    ci = commit
+    br = branch
+    l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+    pu = pull
+    ch = "!git checkout $(git branch | fzf)"
+    a = "!git add $(git status -s | fzf -m | awk '{print $2}')"
