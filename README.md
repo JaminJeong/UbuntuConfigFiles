@@ -33,7 +33,7 @@ $ vim +PluginInstall +qall
 
 ### git alias
 ```bash
-# first of all. you must fzf install 
+# first of all. you must install fzf
 $ cat gitconfig >> ~/.gitconfig
 ```
 
