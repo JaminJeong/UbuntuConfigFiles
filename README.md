@@ -23,7 +23,7 @@ $ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 $ ~/.fzf/install
 ```
 
-### vimrc
+### vim
 ```bash 
 $ sudo apt install vim
 $ cp vimrc ~/.vimrc
